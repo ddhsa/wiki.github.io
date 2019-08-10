@@ -82,7 +82,7 @@ theme: Wikitten
 deploy:
   type: git
   repository: git@github.com:ddhsa/wiki.git
-  branch: master
+  branch: gh-pages
   
 ## Markdown
 ## https://github.com/hexojs/hexo-renderer-marked
