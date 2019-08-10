@@ -1,0 +1,1 @@
+D: && cd D:/yang/blog/wiki && hexo clean && hexo g && hexo s -d -p 6000
