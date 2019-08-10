@@ -81,7 +81,7 @@ theme: Wikitten
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: http://github.com/ddhsa/wiki.git
+  repository: git@github.com:ddhsa/wiki.git
   branch: master
   
 ## Markdown
