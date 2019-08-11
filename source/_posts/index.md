@@ -6,7 +6,7 @@ date: 2019-08-10 17:41:43
 
 有点跑偏了，以上便是本站建立的目的，希望自己能够坚持，努力！奋斗！
 
-随便说一下，本站搭建要感谢[zthxxx](https://github.com/zthxxx)大神的对[hexo-theme-Wikitten](https://github.com/zthxxx/hexo-theme-Wikitten)主题的付出，让我也有了一个合适的工具来丰富我的wiki站，希望大家可以多多去他的github捧场。
+顺便说一下，本站搭建要感谢[zthxxx](https://github.com/zthxxx)大神的对[hexo-theme-Wikitten](https://github.com/zthxxx/hexo-theme-Wikitten)主题的付出，让我也有了一个合适的工具来丰富我的wiki站，希望大家可以多多去他的github捧场。
 
 在这里也提一下zthxxx在他wiki站提到的一些观点，我本人是非常赞同和受用：
 
