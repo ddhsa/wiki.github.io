@@ -16,11 +16,11 @@ customize:
     profile:
         enabled: false # Whether to show profile bar
         avatar: # css/images/avatar.png
-        gravatar: zth_9451@qq.com # Gravatar email address, if you enable Gravatar, your avatar config will be overriden
-        author: zthxxx
-        author_title: Designer & Programmer
-        location: Chengdu, China
-        follow: https://github.com/zthxxx/
+        gravatar: 353171322@qq.com # Gravatar email address, if you enable Gravatar, your avatar config will be overriden
+        author: ddhsa
+        author_title: Designer
+        location: Wuhan, China
+        follow: https://github.com/ddhsa/
     highlight: monokai
     sidebar: left # sidebar position, options: left, right
     category_perExpand: false # enable article categories list per expanding
@@ -28,7 +28,7 @@ customize:
     favicon: /favicon.ico # path to favicon
     default_index_file: index.md # if this, it will display at site index instead of default index page
     social_links:
-        github: https://github.com/zthxxx/zthxxx.github.io
+        github: https://github.com/ddhsa/ddhsa.github.io
         stack-overflow: http://stackoverflow.com/users/7277090/zthxxx?tab=profile
         codepen: http://codepen.io/zthxxx/
         rss: /atom.xml
@@ -62,7 +62,7 @@ history_control: # make you wiki has history version control in page
     server_link: https://github.com # recommend use GitHub https://github.com
     user: ddhsa
     repertory: wiki
-    branch: master
+    branch: writing
 
 # Comment
 comment:
