@@ -1,1 +1,1 @@
-D: && cd D:/yang/blog/wiki && hexo clean && hexo g && hexo d
+D: && cd D:/yang/00_github/wiki && hexo clean && hexo g && hexo d
