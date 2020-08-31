@@ -1,17 +1,27 @@
+title: 解决chrome开发者模式弹窗
+tags:
+  - chrom
+  - 开发者
+categories:
+  - 8、电脑故障
+  - 软件故障
+date: 2019-10-09 13:26:00
+---
 # 前言
 
 
 作为一个前端程序员，难免会有一些专属自己的小扩展，没必要每一个都发到Chrome应用商店去，虽然可以勾选“开发者模式”来运行本地插件，但是每次启动都会有一个烦人的 **“请停用以开发者模式运行的扩展程序”** 提示，这个提示有多烦人，接触过的人都知道，启动的时候它不立即提示，等过了几秒钟等你打开某个网页开始执行某些操作时它突然弹出来干扰你的操作，真是苦不堪言！所以总想着如何把它给去掉。
+作为一个前端程序员，难免会有一些专属自己的小扩展，没必要每一个都发到Chrome应用商店去，虽然可以勾选开发者模式来运行本地插件，但是每次启动都会有一个烦人的请停用以开发者模式运行的扩展程序提示，这个提示有多烦人，接触过的人都知道，启动的时候它不立即提示，等过了几秒钟等你打开某个网页开始执行某些操作时它突然弹出来干扰你的操作，真是苦不堪言！所以总想着如何把它给去掉。
 
-![a_W518xH258_](http://image.haoji.me/201803/20180312_142912_913_8332.png)
+![aW518xH258](http://image.haoji.me/201803/20180312_142912_913_8332.png)
 
 # 解决方法
 
+网上搜索了一圈，发现主要有3种方法——组策略法，运行批处理法，直接改dll文件法。第一种组策略的据说很早就失效了，我亲测了一下确实没用。另外一个批处理的方法据说也生效了，而且批处理权限太大没敢尝试运行，直接试了第三种方法，一次性成功！下面记录一下解决过程（ps原文说的不是特别清楚，有些误导人的地方，我这里全部重新截图描述一遍）
 
-网上搜索了一圈，发现主要有3种方法：组策略法，运行批处理法，直接改dll文件法。第一种组策略的据说很早就失效了，我亲测了一下确实没用。另外一个批处理的方法据说也生效了，而且批处理权限太大没敢尝试运行，直接试了第三种方法，一次性成功！下面记录一下解决过程（ps：原文说的不是特别清楚，有些误导人的地方，我这里全部重新截图描述一遍）。
 
 ## 2.1. 修改dll文件法
--------------
+---
 
 打开Chrome安装目录，找到`chrome.dll`文件，用[x64dbg](http://www.jb51.net/softs/467705.html)打开，
 
@@ -25,7 +35,7 @@
 
 ![W771xH532](http://res.haoji.me/blog/images/transparent.gif)
 
-然后在主面板右键依次选择`搜索` -\> `当前模块` -\> `字符串`：
+然后在主面板右键依次选择`搜索` -> `当前模块` -> `字符串`：
 
 ![W580xH327](http://res.haoji.me/blog/images/transparent.gif)
 
@@ -50,21 +60,21 @@
 以上步骤测试于`chrome@64.0.3282.140`。
 
 ## 2.2. 组策略法
----------
+---
 
 经测试已失效：
 
 https://jingyan.baidu.com/article/ce09321b7d581e2bff858f23.html
 
 ## 2.3. 批处理法
----------
+---
 
 以下方法未亲测，但据说已失效：
 
 http://blog.csdn.net/a493113713/article/details/54917592
 
-参考
-==
+# 参考
+
 
 >本文引用[小茗同学](https://haoji.me/) 的文章，并做了一定缩减；
 
@@ -72,6 +82,6 @@ https://stackoverflow.com/questions/30287907/how-to-get-rid-of-disable-developer
 
 https://www.52pojie.cn/forum.php?mod=viewthread&tid=695123&page=1&authorid=533705
 
-个人网站：[https://haoji.me](https://haoji.me/)  
-github：[https://github.com/sxei](https://github.com/sxei)  
-博客园：[http://www.cnblogs.com/liuxianan](http://www.cnblogs.com/liuxianan)  
+个人网站： [https://haoji.me](https://haoji.me/)  
+github： [https://github.com/sxei](https://github.com/sxei)  
+博客园： [http://www.cnblogs.com/liuxianan](http://www.cnblogs.com/liuxianan)
